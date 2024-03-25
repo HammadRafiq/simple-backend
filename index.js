@@ -1,5 +1,4 @@
-const express = require("express");
-
+import express from "express"
 const app = express();
 
 app.get("/", (req, res) => {
@@ -11,4 +10,4 @@ app.listen(5000, () => {
 });
 
 // Export the Express API
-module.exports = app;
+export default app
